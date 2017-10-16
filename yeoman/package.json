@@ -1,0 +1,15 @@
+{
+  "name": "generator-local",
+  "version": "0.1.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "yeoman-generator": "^1.0.0"
+  }
+}

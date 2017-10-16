@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hello /> base snapshots renders with the name Doguhan 1`] = `
+<RX.View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RX.Text
+    style={
+      Object {
+        "color": "#110022",
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello, 
+    Doguhan
+  </RX.Text>
+  <RX.Button
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#330066",
+          "borderRadius": 5,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <RX.Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Random Name
+    </RX.Text>
+  </RX.Button>
+</RX.View>
+`;
+
+exports[`<Hello /> base snapshots renders with the name Kevin 1`] = `
+<RX.View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RX.Text
+    style={
+      Object {
+        "color": "#110022",
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello, 
+    Kevin
+  </RX.Text>
+  <RX.Button
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#330066",
+          "borderRadius": 5,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <RX.Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Random Name
+    </RX.Text>
+  </RX.Button>
+</RX.View>
+`;
+
+exports[`<Hello /> base snapshots renders with the name React 1`] = `
+<RX.View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RX.Text
+    style={
+      Object {
+        "color": "#110022",
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello, 
+    React
+  </RX.Text>
+  <RX.Button
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#330066",
+          "borderRadius": 5,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <RX.Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Random Name
+    </RX.Text>
+  </RX.Button>
+</RX.View>
+`;
+
+exports[`<Hello /> base snapshots renders with the name Stuart 1`] = `
+<RX.View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RX.Text
+    style={
+      Object {
+        "color": "#110022",
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello, 
+    Stuart
+  </RX.Text>
+  <RX.Button
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#330066",
+          "borderRadius": 5,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <RX.Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Random Name
+    </RX.Text>
+  </RX.Button>
+</RX.View>
+`;
+
+exports[`<Hello /> base snapshots renders with the name World 1`] = `
+<RX.View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RX.Text
+    style={
+      Object {
+        "color": "#110022",
+        "fontSize": 18,
+        "paddingBottom": 10,
+        "textAlign": "center",
+      }
+    }
+  >
+    Hello, 
+    World
+  </RX.Text>
+  <RX.Button
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#330066",
+          "borderRadius": 5,
+          "justifyContent": "center",
+          "paddingBottom": 10,
+          "paddingLeft": 20,
+          "paddingRight": 20,
+          "paddingTop": 10,
+        },
+      ]
+    }
+  >
+    <RX.Text
+      style={
+        Array [
+          Object {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      Random Name
+    </RX.Text>
+  </RX.Button>
+</RX.View>
+`;

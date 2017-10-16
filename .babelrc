@@ -1,0 +1,17 @@
+{
+  "presets": ["react-native"],
+  "plugins": [
+    ["module-alias", [
+      { "src": "./src/commonStyles", "expose": "commonStyles" },
+      { "src": "./src/components", "expose": "components" },
+      { "src": "./src/containers", "expose": "containers" },
+      { "src": "./src/helpers", "expose": "helpers" },
+      { "src": "./src/queries", "expose": "queries" },
+      { "src": "./src/redux-store", "expose": "redux-store" },
+      { "src": "./src/redux-store/actions", "expose": "actions" },
+      { "src": "./src/redux-store/thunks", "expose": "thunks" },
+      { "src": "./src/routes", "expose": "routes" },
+      { "src": "./src/services", "expose": "services" }
+    ]]
+  ]
+}

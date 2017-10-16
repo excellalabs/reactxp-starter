@@ -1,0 +1,69 @@
+
+import 'jest'
+import 'react-native'
+import * as React from 'react'
+import * as RX from 'reactxp'
+import * as renderer from 'react-test-renderer'
+import { shallow, configure } from 'enzyme'
+import Adapter from 'enzyme-adapter-react-16'
+configure({ adapter: new Adapter() })
+
+import <%= 'Original' + options.componentName %> from '.'
+type <%= options.componentName + 'Type' %> = typeof <%= 'Original' + options.componentName %>
+
+const importModule = (): <%= options.componentName + 'Type' %> => {
+  const module = require('.').default
+  return module
+}
+
+const mockedComponents = [
+]
+
+const defaultMocks = [
+]
+
+const allMocks = mockedComponents.concat(defaultMocks)
+
+describe('<<%= options.componentName %> /> />', () => {
+  beforeEach(() => {
+    jest.resetModules()
+    mockedComponents.forEach(component => {
+      jest.setMock(component, component)
+    })
+    defaultMocks.forEach(component => {
+      jest.setMock(component, jest.genMockFromModule(component))
+    })
+  })
+
+  afterEach(() => {
+    allMocks.forEach(component => {
+      jest.unmock(component)
+    })
+  })
+
+  describe('snapshots', () => {
+    it('renders correctly', () => {
+      const <%= options.componentName %> = importModule()
+      const tree = renderer.create(
+        <<%= options.componentName %> onPress={jest.fn()} />,
+      )
+
+      expect(tree).toMatchSnapshot()
+    })
+  })
+
+  describe('button press', () => {
+    it('should call onPress()', () => {
+      const pressHandler = jest.fn()
+
+      const <%= options.componentName %> = importModule()
+      const wrapper = shallow(
+        <<%= options.componentName %> onPress={pressHandler} />,
+      )
+
+      wrapper.find(RX.Button).simulate('press')
+
+      expect(pressHandler).toHaveBeenCalledTimes(1)
+    })
+  })
+})

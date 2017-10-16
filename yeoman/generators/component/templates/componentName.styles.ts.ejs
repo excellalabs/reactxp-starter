@@ -1,0 +1,19 @@
+
+import * as RX from 'reactxp'
+
+import { button, buttonText } from 'commonStyles'
+
+export default {
+  container: RX.Styles.createViewStyle({
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }),
+  text: RX.Styles.createTextStyle({
+    fontSize: 20,
+    textAlign: 'center',
+    margin: 10
+  }),
+  button: [button],
+  buttonText: [buttonText]
+}

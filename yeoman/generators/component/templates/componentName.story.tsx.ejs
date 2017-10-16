@@ -1,0 +1,12 @@
+
+import 'react-native'
+import * as React from 'react'
+import { storiesOf, linkTo } from '@storybook/react-native'
+import { action } from '@storybook/addon-actions'
+
+import <%= options.componentName %> from '.'
+
+storiesOf('<%= options.componentName %>', module)
+  .add('display', () => (
+    <<%= options.componentName %> onPress={action('<%= options.componentName %>.onPress')} />
+  ))

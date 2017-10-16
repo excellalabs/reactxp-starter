@@ -1,0 +1,50 @@
+{
+  "preset": "react-native",
+  "transform": {
+    "\\.(ts|tsx)$": "ts-jest/preprocessor.js",
+    "\\.(js|jsx)$": "babel-jest"
+  },
+  "testRegex": "(src|storybook)/.*(/__tests__/.*|\\.(spec))\\.(ts|tsx|js)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "json"
+  ],
+  "globals": {
+    "ts-jest": {
+      "tsConfigFile": "tsconfig.json"
+    }
+  },
+  "moduleNameMapper": {
+    "^commonStyles$": "<rootDir>/src/commonStyles/index.ts",
+    "^commonStyles/(.*)$": "<rootDir>/src/commonStyles/$1.ts",
+    "^components/(.*)$": "<rootDir>/src/components/$1/index.ts",
+    "^containers/(.*)$": "<rootDir>/src/containers/$1/index.ts",
+    "^helpers/(.*)$": "<rootDir>/src/helpers/$1.ts",
+    "^queries/(.*)$": "<rootDir>/src/queries/$1.ts",
+    "^redux-store$": "<rootDir>/src/redux-store/index.ts",
+    "^actions/(.*)$": "<rootDir>/src/redux-store/actions/$1.ts",
+    "^thunks/(.*)$": "<rootDir>/src/redux-store/thunks/$1.ts",
+    "^routes/(.*)$": "<rootDir>/src/routes/$1/index.ts",
+    "^services/(.*)$": "<rootDir>/src/services/$1.ts"
+  },
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/**/*.{ts,tsx}",
+    "!src/index.tsx",
+    "!src/**/*.d.ts",
+    "!src/redux-store/index.ts",
+    "!src/redux-store/rootReducer.ts",
+    "!src/redux-store/store.ts",
+    "!src/routes/**/*"
+  ],
+  "coverageThreshold": {
+    "global": {
+      "branches": 20,
+      "functions": 20,
+      "lines": 20,
+      "statements": 20
+    }
+  }
+}

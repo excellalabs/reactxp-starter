@@ -1,0 +1,22 @@
+
+import * as React from 'react'
+import * as RX from 'reactxp'
+
+import styles from './<%= options.componentName %>.styles'
+
+interface Props {
+  onPress: () => void
+}
+
+export default ({ onPress }: Props) => (
+ <RX.View style={styles.container}>
+   <RX.Text style={styles.text}>
+     Sample
+   </RX.Text>
+   <RX.Button style={styles.button} onPress={onPress}>
+    <RX.Text style={styles.buttonText}>
+      Click Me!
+    </RX.Text>
+   </RX.Button>
+ </RX.View>
+)

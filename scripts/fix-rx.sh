@@ -1,0 +1,1 @@
+sed -i bkp 's/Navigation.StateUtils/[]/g' node_modules/reactxp/dist/native-common/NavigatorExperimentalDelegate.js
